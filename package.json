@@ -1,9 +1,13 @@
 {
 	"scripts": {
-		"test": "eslint --cache --ext .js --ext .jsx views && echo ✓"
+		"start": "npm run compile -- --watch",
+		"test": "eslint --cache --ext .js --ext .jsx *.js views && echo ✓",
+		"compile": "faucet --no-fingerprint --compact"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"eslint-config-fnd-jsx": "^1.1.0"
+		"complate-stream": "^0.14.0",
+		"eslint-config-fnd-jsx": "^1.1.0",
+		"faucet-pipeline-jsx": "^0.11.0"
 	}
 }
