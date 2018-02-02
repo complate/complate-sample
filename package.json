@@ -6,7 +6,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"complate-stream": "^0.14.1",
+		"complate-stream": "^0.15.0",
 		"eslint-config-fnd-jsx": "^1.1.0",
 		"faucet-pipeline-jsx": "^0.11.0"
 	}
